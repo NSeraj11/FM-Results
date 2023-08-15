@@ -1,0 +1,138 @@
+h2{
+    color:white;
+}
+
+button{
+    padding:10px;
+    background-color: navy;
+    color:white;
+    position:relative;
+    left:55px;
+    width:200px;
+    border-radius: 20px;
+
+}
+
+.container{
+    display:flex;
+    border:1px solid grey;
+    width:50%;
+    position: relative;
+    left:300px;
+    top:200px;
+    border-radius: 45px;
+
+}
+
+
+.results-container{
+    border:1px solid grey;
+    width:50%;
+    background-color: #775CFF;
+    text-align: center;
+    border-radius: 45px;
+}
+
+.results-container h4{
+    color:lightgrey;
+}
+
+.results-container p{
+    color:lightgrey;
+}
+
+.score{
+    background-color: #1F00B8;
+    width:100px;
+    position: relative;
+    left: 100px;
+    border-radius: 40px;
+    padding:5px;
+}
+
+.score span{
+    color:white;
+    font-size: 40px;
+}
+
+
+
+.summary-container h4{
+    position: relative;
+    left:130px;
+}
+
+.block{
+    display:flex;
+    width:200px;
+    padding:7px;
+    margin-bottom: 10px;
+    align-content: center;
+    position:relative;
+    left:50px;
+}
+
+.right{
+    margin-left:80px;
+    color:black;
+}
+
+.rr{
+    position: relative;
+    left:15px;
+}
+
+.attribution{
+    position: relative;
+    top:300px;
+    left:500px;
+}
+
+.reaction{
+    background-color: #CA7D80;
+}
+
+.reaction .left{
+    color:darkred;
+}
+
+.memory{
+    background-color: #F8F88C;
+}
+
+.memory .left{
+    color:darkgoldenrod;
+}
+
+.verbal{
+    background-color: #B6F6B6;
+}
+
+.verbal .left{
+    color:forestgreen;
+}
+
+.visual{
+    background-color: #B6CEE2;
+}
+
+.visual .left{
+    color:blue;
+}
+
+@media(max-width:700px){
+    .container{
+        display:block;
+        position: relative;
+        left:150px;
+    }
+
+    .results-container{
+        width:310px
+    }
+
+    .attribution{
+        position:relative;
+        left:140px;
+    }
+}
